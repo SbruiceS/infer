@@ -1432,7 +1432,7 @@
     "@docusaurus/theme-classic" "2.0.0-beta.14"
     "@docusaurus/theme-search-algolia" "2.0.0-beta.14"
 
-"@docusaurus/react-loadable@5.5.2", "react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+"@docusaurus/react-loadable@5.5.2":
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
   integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
@@ -3884,10 +3884,10 @@ get-stream@^6.0.0:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.1.tgz#a262d8eef67aced57c2852ad6167526a43cbf7b7"
   integrity sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==
 
-github-buttons@^2.8.0:
-  version "2.22.0"
-  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.22.0.tgz#b2669f8504ce5496ab37b7ce53e8ed01db9818bc"
-  integrity sha512-N5bk01s1WgK1FVtoeSUVkRkJpkaSu8yHMPcjye+PTa0jsRjMRNrYqVLgpUf2RA5Kvec05DfHYAT6/68fwkdqPw==
+github-buttons@^2.22.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.29.1.tgz#c717cadc4a3e5e61bdc1977b3905d60fed8a5648"
+  integrity sha512-TV3YgAKda5hPz75n7QXmGCsSzgVya1vvmBieebg3EB5ScmashTZ0FldViG1aU2d4V5rcAGrtQ7k5uAaCo0A4PA==
 
 github-slugger@^1.4.0:
   version "1.4.0"
@@ -5958,12 +5958,12 @@ react-fast-compare@^3.1.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-github-btn@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-github-btn/-/react-github-btn-1.2.0.tgz#464066f999a77c0eed27980260601b51cbe15614"
-  integrity sha512-/b2TGTeek5Ky+KtuP5BxOaXgb1FGhbwgZNI6rkwkGk7+xtCtsNMkdchOcCnC3qU1JGTWPKzYZWpPBIouVhXAoQ==
+react-github-btn@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-github-btn/-/react-github-btn-1.4.0.tgz#92654107e92658e60dd977c7a92b212f806da78d"
+  integrity sha512-lV4FYClAfjWnBfv0iNlJUGhamDgIq6TayD0kPZED6VzHWdpcHmPfsYOZ/CFwLfPv4Zp+F4m8QKTj0oy2HjiGXg==
   dependencies:
-    github-buttons "^2.8.0"
+    github-buttons "^2.22.0"
 
 react-helmet@^6.1.0:
   version "6.1.0"
@@ -6001,6 +6001,14 @@ react-loadable-ssr-addon-v5-slorber@^1.0.1:
   integrity sha512-lq3Lyw1lGku8zUEJPDxsNm1AfYHBrO9Y1+olAYwpUJ2IGFBskM0DMKok97A6LWUpHm+o7IvQBOWu9MLenp9Z+A==
   dependencies:
     "@babel/runtime" "^7.10.3"
+
+"react-loadable@npm:@docusaurus/react-loadable@5.5.2":
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@docusaurus/react-loadable/-/react-loadable-5.5.2.tgz#81aae0db81ecafbdaee3651f12804580868fa6ce"
+  integrity sha512-A3dYjdBGuy0IGT+wyLIGIKLRE+sAk1iNk0f1HjNDysO7u8lhL4N3VEm+FAubmJbAztn94F7MxBTPmnixbiyFdQ==
+  dependencies:
+    "@types/react" "*"
+    prop-types "^15.6.2"
 
 react-router-config@^5.1.1:
   version "5.1.1"
